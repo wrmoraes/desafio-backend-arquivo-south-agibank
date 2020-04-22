@@ -1,0 +1,31 @@
+server:
+  port: 8090
+spring:
+  messages:
+    basename: i18n/messages
+  batch:
+    job:
+      enabled: false
+  datasource:
+    url: jdbc:h2:file:C:/data/sample
+    driverClassName: org.h2.Driver
+    username: sa
+    password:
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+sales:
+  batch:
+    salesReport:
+      enabled: true
+      chunkSize: 1
+      retryLimit: 1
+      input:
+        path: \data\in
+      output:
+        path: \data\out
+      fileExtension: .dat
+      processedExtension: .processed.dat
+      resultExtension: .done.dat
+logging:
+  level:
+    br.com.south.batch.sales: DEBUG
