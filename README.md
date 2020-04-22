@@ -68,7 +68,7 @@ Para executar o projeto, execute o comando abaixo:
 
 ````
 mvn clean package
-java -jar -Dspring.profiles.active=local target/app.jar
+java -jar -Dspring.profiles.active=local target/sales-0.0.1-SNAPSHOT.jar
 ````
 
 ## TODO
