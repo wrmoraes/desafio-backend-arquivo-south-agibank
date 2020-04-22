@@ -67,7 +67,7 @@ Após as definições do Escopo tratadas no dia 20/03/2020 ás 12:00, iniciei o 
 Para executar o projeto, execute o comando abaixo:
 
 ````
-mvn clean package
+mvn clean package -DskipTests=true
 java -jar -Dspring.profiles.active=local target/sales-0.0.1-SNAPSHOT.jar
 ````
 
