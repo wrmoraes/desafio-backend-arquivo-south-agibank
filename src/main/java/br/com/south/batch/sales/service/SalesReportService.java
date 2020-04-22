@@ -12,8 +12,6 @@ import org.springframework.stereotype.Service;
 import java.math.BigDecimal;
 import java.util.Comparator;
 import java.util.List;
-import java.util.Map;
-import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
 import static br.com.south.batch.sales.utils.message.MessageCodeEnum.ERROR_FIND_MOST_EXPENSIVE;

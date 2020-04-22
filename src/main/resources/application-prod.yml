@@ -7,7 +7,7 @@ spring:
     job:
       enabled: false
   datasource:
-    url: jdbc:h2:file:C:/data/baseLocal
+    url: jdbc:h2:file:C:/data/baseProd
     driverClassName: org.h2.Driver
     username: sa
     password:
@@ -28,4 +28,4 @@ sales:
       resultExtension: .done.dat
 logging:
   level:
-    br.com.south.batch.sales: DEBUG
+    br.com.south.batch.sales: INFO

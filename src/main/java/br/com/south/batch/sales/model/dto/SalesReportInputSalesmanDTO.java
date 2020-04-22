@@ -1,8 +1,6 @@
 package br.com.south.batch.sales.model.dto;
 
 import br.com.south.batch.sales.annotation.PositionalField;
-import br.com.south.batch.sales.model.enumeration.SalesmanNameEnum;
-import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;

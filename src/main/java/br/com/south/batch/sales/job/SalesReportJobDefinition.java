@@ -5,7 +5,6 @@ import br.com.south.batch.sales.config.BatchProperties;
 import br.com.south.batch.sales.job.processor.SalesReportFileProcessor;
 import br.com.south.batch.sales.job.reader.SalesReportFileItemReader;
 import br.com.south.batch.sales.job.writer.SalesReportFileWriter;
-import br.com.south.batch.sales.model.dto.SalesReportInputDTO;
 import br.com.south.batch.sales.model.dto.SalesReportResultDTO;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
